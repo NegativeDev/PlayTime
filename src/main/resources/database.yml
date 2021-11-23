@@ -1,0 +1,6 @@
+mysql: false
+host: ""
+port: ""
+database: ""
+username: ""
+password: ""

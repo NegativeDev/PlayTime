@@ -1,0 +1,7 @@
+name: PlayTime
+version: '${project.version}'
+main: dev.negativekb.playtime.PlayTime
+authors: [ Negative ]
+description: PlayTime Management System
+
+depend: [ LuckPerms ]

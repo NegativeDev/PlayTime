@@ -1,0 +1,14 @@
+ranks:
+  RANK_ZERO:
+    priority: 0
+    luckperms-group: "default"
+    required-time: 0s
+    default-rank: true
+  RANK_ONE:
+    priority: 1
+    luckperms-group: "RankOne"
+    required-time: "10m"
+  RANK_TWO:
+    priority: 2
+    luckperms-group: "RankTwo"
+    required-time: "1h30m"
