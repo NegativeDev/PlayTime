@@ -47,12 +47,9 @@ public class PlayTimeListener implements Listener {
         profileManager.load(player.getName(), uuid);
 
         profileManager.getProfile(player).ifPresent(profile -> {
-            // TODO: Clean up code
-            // TODO: If the user joins with an "invalid rank", set them to default.
             if (profile.getRank() == null || profile.getRank().equals("No Rank")) {
                 rankManager.getDefaultRank().ifPresent(rank -> profile.setRank(rank.getName()));
             }
-
         });
         timeTable.putIfAbsent(uuid, System.currentTimeMillis());
     }
